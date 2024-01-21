@@ -1,0 +1,38 @@
+.add{
+    margin-top: 80px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin: 80px auto;
+    input{
+        padding: 10px;
+        border-radius: 12px;
+    }
+   
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 50px auto; button{
+        margin-left: 5px;
+    }
+    img{
+        width: 70px;
+        // height: 70px;
+        object-fit: contain;
+    }
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
