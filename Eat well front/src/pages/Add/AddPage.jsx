@@ -83,8 +83,8 @@ function AddPage() {
         </Helmet>
       </div>
       <input type="text" onChange={(e) => setSearch(e.target.value)} placeholder='Search by name' name="" id="" />
-      <button onClick={() => setSortBy({ field: "price", asc: false })}><i class="fa-solid fa-arrow-up-wide-short"></i></button>
-      <button onClick={() => setSortBy({ field: "price", asc: true })}><i class="fa-solid fa-arrow-down-wide-short"></i></button>
+      <button onClick={() => setSortBy({ field: "price", asc: false })}><i className="fa-solid fa-arrow-up-wide-short"></i></button>
+      <button onClick={() => setSortBy({ field: "price", asc: true })}><i className="fa-solid fa-arrow-down-wide-short"></i></button>
       <button onClick={() => setSortBy(null)}>Default</button>
 
       <table>
